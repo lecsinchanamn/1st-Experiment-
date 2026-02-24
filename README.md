@@ -104,7 +104,7 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/f5971c55f62360e626d7ad8ed8
 This figure shows the transient output waveform of the common source amplifier. A sinusoidal input signal is applied to the gate, and the output voltage is observed at the drain. The output waveform is sinusoidal and centered around the bias voltage, which indicates that the MOSFET is operating in saturation region and the amplifier is working correctly.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/24f7d11d635a07b63a65ff90698175622721f181/Transient%20Analysis2.jpg
 # Theoretical calculation 
-
+https://github.com/lecsinchanamn/1st-Experiment-/blob/048edfa3a286f0dd83092382961f1c842364dea7/Theoretical%20%26%20practical%20TA.jpg
 
 
 
