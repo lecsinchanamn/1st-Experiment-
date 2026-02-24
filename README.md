@@ -108,5 +108,16 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/048edfa3a286f0dd8309238296
 # DC Transfer characteristics.
 The DC transfer characteristic of a Common Source (CS) amplifier shows how the output voltage (�) changes with input voltage (�) under DC conditions.
 
+1. DC Operation of CS Amplifier
+In a CS amplifier:
+The gate receives the input voltage � (DC bias for DC analysis).
+The drain resistor � develops the output voltage �.
+The source is usually grounded (V_S = 0).
+The MOSFET operates in saturation if:
+VDS>VGS-VT
+Where:
+� = drain-source voltage
+� = gate-source voltage
+� = MOSFET threshold voltage
 
 
