@@ -135,6 +135,7 @@ nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 33.28
 GHzGBP ≈ 11.4 × 33.28 GHz ≈ 379.392GHz (approx) 
 The AC frequency response of the common-source MOSFET amplifier shows that the amplifier provides a stable and constant gain in the midband frequency range. 
 This means the circuit amplifies the input signal properly without distortion at low and medium frequencies.
+# Circuit diagram and Wave.
 
 
 # AC Analysis with Capacitor.
@@ -145,6 +146,7 @@ From AC plot (with CL = 10pF):
 Midband gain ≈ 2.8076
 nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 34.276 GHz
 GBP ≈ 11.36 × 34.276 GHz ≈ 381.42GHz (approx) From the AC frequency response analysis of the MOSFET common-source amplifier.
-
+# Circuit diagram and wave.
+https://github.com/lecsinchanamn/1st-Experiment-/blob/6e1d1a7e0d14e1a95256a527c6614dc84da13289/AC%20analysis%20with%20C.jpg
 
 
