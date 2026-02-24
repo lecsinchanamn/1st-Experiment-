@@ -75,7 +75,7 @@ Technology                     = TSMC 0.18µm CMOS
 https://github.com/lecsinchanamn/1st-Experiment-/blob/4eb58277f3577c238c9830dbc94bbbaad6c93e22/Theoretical%20calculation.jpg
 https://github.com/lecsinchanamn/1st-Experiment-/blob/539bd8e45ddfd2f8a521f9c4c4e8886142225d7e/Theoretical%20Calculationn.jpg
 # DC Analysis (DC Sweep):
-what is it:
+ what is it:
  Slowly change the input voltage and observe the output
  Why we do it:
  1. Find the operating point (Q-point) of the NMOS transistor
@@ -86,10 +86,18 @@ what is it:
  2. Measure drain current I_D or drain   voltage V_D
  3. Plot output vs input
 For the simulation the values are:
+
 DC OFFSET = O.9.
 AMPLITUDE =10m.
 FREQUENCY =1KHz.
 AC AMPLITUDE =1.
+# Circuit diagram and wave
 https://github.com/lecsinchanamn/1st-Experiment-/blob/132ab5e2152335cf6aa315ce2b2c050866655bf2/DC%20Analysis.jpg
+# Tabular Table 
+https://github.com/lecsinchanamn/1st-Experiment-/blob/92252573f8d650efbfd744b3ac2eeb6477148e4c/DC%20Sweep2.jpg
+# Transint Analysis 
+
+
+
 
 
