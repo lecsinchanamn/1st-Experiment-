@@ -91,21 +91,26 @@ When Vin increases → Vout decreases
 (Phase inversion of 180°)
 
 # AIM
+
 Design and Simulate the Common Source Amplifier NMOS MOSFET and Using (time 018nm) technology in Laboratory using LT spice software.
 # specification table.
+
 Supply Voltage (VDD)          = 2 V
 Power Consumption (P)         = 1.2 mW
 Drain Current (ID)            = 200 µA
 Load Capacitance (CL)         = 0.7 pF
 NMOS Channel Length (Ln)      = 480 nm
 Technology                     = TSMC 0.18µm CMOS
+
 # What are the Parameter need to find using this Specification?
 1. Drain current (ID).
-2. Drain Resistor (RD).
-3. Channel Width of NMOS MOSFET (Wn).
+3. Drain Resistor (RD).
+4. Channel Width of NMOS MOSFET (Wn).
+5. 
 # Theoretical calculation.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/4eb58277f3577c238c9830dbc94bbbaad6c93e22/Theoretical%20calculation.jpg
 https://github.com/lecsinchanamn/1st-Experiment-/blob/539bd8e45ddfd2f8a521f9c4c4e8886142225d7e/Theoretical%20Calculationn.jpg
+
 # DC Analysis (DC Sweep):
  what is it:
  Slowly change the input voltage and observe the output
@@ -159,9 +164,7 @@ ID = kn * ((VGS - Vth) * VDS - 0.5 * VDS * VDS); Drain current in triode
 Vout = VDD - ID * RD; Output voltage ~ 0
 # Circuit diagram and wave.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/5fa62d352d51f6517e0429daf9cd5fdd6998bd86/DC%20Analysis.jpg
-# AC Analysis without Capacitor.
- 
- # Calucation of Gain and Bandwidth 
+# AC Analysis without Capacitor and Calucation.
 Midband gain ≈ 2.8076 
 nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 33.28
 GHzGBP ≈ 11.4 × 33.28 GHz ≈ 379.392GHz (approx) 
@@ -184,7 +187,7 @@ nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 34.276 GHz
 GBP ≈ 11.36 × 34.276 GHz ≈ 381.42GHz (approx) From the AC frequency response analysis of the MOSFET common-source amplifier.
 # Circuit diagram and wave.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/6e1d1a7e0d14e1a95256a527c6614dc84da13289/AC%20analysis%20with%20C.jpg
-# Result of experiment.
+# Result of the experiment.
 The all 4 Analysis of Common Source Amplifier like Analysis, DC Analysis, Transient Analysis, Transfer characteristics Analysis are Done under (tsmc018nm) using LT spice.
 
 # Inferences.
