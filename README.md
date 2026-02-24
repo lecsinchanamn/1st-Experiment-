@@ -91,8 +91,8 @@ DC OFFSET = O.9.
 AMPLITUDE =10m.
 FREQUENCY =1KHz.
 AC AMPLITUDE =1.
-# Circuit diagram and wave
-https://github.com/lecsinchanamn/1st-Experiment-/blob/132ab5e2152335cf6aa315ce2b2c050866655bf2/DC%20Analysis.jpg
+# Circuit diagram 
+
 # Tabular Table 
 https://github.com/lecsinchanamn/1st-Experiment-/blob/92252573f8d650efbfd744b3ac2eeb6477148e4c/DC%20Sweep2.jpg
 # Transint Analysis
