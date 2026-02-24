@@ -73,5 +73,5 @@ Technology                     = TSMC 0.18µm CMOS
 3. Channel Width of NMOS MOSFET (Wn).
 # Theoretical calculation.
 Theoretical calculation.jpg
-
+https://github.com/lecsinchanamn/1st-Experiment-/blob/539bd8e45ddfd2f8a521f9c4c4e8886142225d7e/Theoretical%20Calculationn.jpg
  
