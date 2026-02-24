@@ -139,8 +139,12 @@ This means the circuit amplifies the input signal properly without distortion at
 https://github.com/lecsinchanamn/1st-Experiment-/blob/82837e6379d8681bc17520410a7338bb68fdfb51/AC%20analysis%20withoutC.jpg
 
 # AC Analysis with Capacitor.
+
 For AC analysis use (.ac dec 10 0.1 100G)
+In AC analysis, capacitors affect the frequency response of the CS amplifier.
+If a 10 pF capacitor is connected (usually as load capacitor. It affects the output
 The frequency response was obtained to determine gain and bandwidth.
+
 # Calculation of Gain and Bandwidth 
 From AC plot (with CL = 10pF):
 Midband gain ≈ 2.8076
