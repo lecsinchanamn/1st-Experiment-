@@ -107,23 +107,23 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/24f7d11d635a07b63a65ff9069
 https://github.com/lecsinchanamn/1st-Experiment-/blob/048edfa3a286f0dd83092382961f1c842364dea7/Theoretical%20%26%20practical%20TA.jpg
 # DC Transfer characteristics.
 
-// 1. Cut-off Region (MOSFET OFF)
-Vin = LOW;             // Input voltage is very small
-VGS < Vth;             // Gate-Source voltage below threshold
-ID = 0;                // No drain current
-Vout = VDD - ID * RD;  // Output voltage ~ VDD
+1. Cut-off Region (MOSFET OFF)
+Vin = LOW; Input voltage is very small
+VGS < Vth; Gate-Source voltage below threshold
+ID = 0; No drain current
+Vout = VDD - ID * RD; Output voltage ~ VDD
 
-// 2. Saturation Region (Amplifier ON)
-Vin = MEDIUM;          // Input voltage moderate
-VDS > VGS - Vth;       // Condition for saturation
-ID = 0.5 * kn * (VGS - Vth) * (VGS - Vth); // Drain current in saturation
-Vout = VDD - ID * RD;  // Output voltage decreases with Vin
-// Small change in Vin → large change in Vout (amplification region)
+2. Saturation Region (Amplifier ON)
+Vin = MEDIUM; Input voltage moderate
+VDS > VGS - Vth; Condition for saturation
+ID = 0.5 * kn * (VGS - Vth) * (VGS - Vth); Drain current in saturation
+Vout = VDD - ID * RD; Output voltage decreases with Vin
+Small change in Vin → large change in Vout (amplification region)
 
-// 3. Triode Region (MOSFET fully ON)
-Vin = HIGH;            // Input voltage high
-VDS < VGS - Vth;       // Condition for triode
-ID = kn * ((VGS - Vth) * VDS - 0.5 * VDS * VDS); // Drain current in triode
-Vout = VDD - ID * RD;  // Output voltage ~ 0
-// No amplification, MOSFET behaves like a resistor
+3. Triode Region (MOSFET fully ON)
+Vin = HIGH; Input voltage high
+VDS < VGS - Vth; Condition for triode
+ID = kn * ((VGS - Vth) * VDS - 0.5 * VDS * VDS); Drain current in triode
+Vout = VDD - ID * RD; Output voltage ~ 0
+
 
