@@ -106,6 +106,7 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/24f7d11d635a07b63a65ff9069
 # Theoretical and Practical calculation 
 https://github.com/lecsinchanamn/1st-Experiment-/blob/048edfa3a286f0dd83092382961f1c842364dea7/Theoretical%20%26%20practical%20TA.jpg
 # DC Transfer characteristics.
+The DC transfer characteristic of a Common Source (CS) amplifier shows how the output voltage (�) changes with input voltage (�) under DC conditions.
 
 
 
