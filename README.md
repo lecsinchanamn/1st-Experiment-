@@ -61,49 +61,15 @@ What is role of VDD in Circuit?
 # AIM
 Design and Simulate the Common Source Amplifier NMOS MOSFET and Using (time 018nm) technology in Laboratory using LT spice software.
 # specification table.
-
-// CS Amplifier Specifications (NMOS, TSMC 0.18µm)
-
 Supply Voltage (VDD)          = 2 V
 Power Consumption (P)         = 1.2 mW
-Drain Current (ID)            = 0.6 mA
+Drain Current (ID)            = 200 µA
 Load Capacitance (CL)         = 0.7 pF
 NMOS Channel Length (Ln)      = 480 nm
-NMOS Channel Width (Wn)       = 36 µm
-NMOS Threshold Voltage (VTH)  = 0.4 V
-Gate Overdrive Voltage (VOV)  = 0.2 V
-Gate Bias Voltage (VG)        = 0.6 V
-Drain Resistor (RD)           = 1.67 kΩ
-Voltage Gain (Av)             = -10
-+---------------------------+--------------------+
-|        Parameter          |       Value        |
-+---------------------------+--------------------+
-| Supply Voltage (VDD)      | 2 V                |
-+---------------------------+--------------------+
-| Power Consumption (P)     | 1.2 mW             |
-+---------------------------+--------------------+
-| Drain Current (ID)        | 0.6 mA             |
-+---------------------------+--------------------+
-| Load Capacitance (CL)     | 0.7 pF             |
-+---------------------------+--------------------+
-| NMOS Channel Length (Ln)  | 480 nm             |
-+---------------------------+--------------------+
-| NMOS Channel Width (Wn)   | 36 µm              |
-+---------------------------+--------------------+
-| NMOS Threshold Voltage (VTH)| 0.4 V            |
-+---------------------------+--------------------+
-| Gate Overdrive Voltage (VOV)| 0.2 V            |
-+---------------------------+--------------------+
-| Gate Bias Voltage (VG)    | 0.6 V              |
-+---------------------------+--------------------+
-| Drain Resistor (RD)       | 1.67 kΩ            |
-+---------------------------+--------------------+
-| Voltage Gain (Av)         | -10                |
-+---------------------------+--------------------+
-| Transconductance (gm)     | 6 mS               |
-+---------------------------+--------------------+
-| Drain-Source Voltage (VDS)| 1 V                |
-+---------------------------+--------------------+
-| Technology                | TSMC 0.18 µm CMOS |
-+---------------------------+--------------------+
-
+Technology                     = TSMC 0.18µm CMOS
+# What are the Parameter need to find using this Specification?
+1. Drain current (ID).
+2. Drain Resistor (RD).
+3. Channel Width of NMOS MOSFET (Wn)
+4. 
+ 
