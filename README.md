@@ -96,6 +96,10 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/132ab5e2152335cf6aa315ce2b
 # Tabular Table 
 https://github.com/lecsinchanamn/1st-Experiment-/blob/92252573f8d650efbfd744b3ac2eeb6477148e4c/DC%20Sweep2.jpg
 # Transint Analysis 
+1.The input voltage (Vin) is shown in blue, and the output voltage (Vout) is shown in green.
+2.The output voltage has a larger amplitude than the input, showing that the circuit amplifies the signal.
+The output is inverted compared to the input; when the input increases, the output decreases.
+3.Phase inversion is typical for a common-source (CS) MOSFET amplifier.
 
 
 
