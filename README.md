@@ -60,6 +60,6 @@ What is role of VDD in Circuit?
    - Important for **digital signals and switching applications**.
 # AIM
 Design and Simulate the Common Source Amplifier NMOS MOSFET and Using (time 018nm) technology in Laboratory using LT spice software.
-# specification table
+# specification table.
 
 
