@@ -102,6 +102,8 @@ The output is inverted compared to the input; when the input increases, the outp
 https://github.com/lecsinchanamn/1st-Experiment-/blob/f5971c55f62360e626d7ad8ed8c6f8231ca7cb46/Transient%20Analysis1.jpg
 # Only Output Transient Analysis.
 This figure shows the transient output waveform of the common source amplifier. A sinusoidal input signal is applied to the gate, and the output voltage is observed at the drain. The output waveform is sinusoidal and centered around the bias voltage, which indicates that the MOSFET is operating in saturation region and the amplifier is working correctly.
+https://github.com/lecsinchanamn/1st-Experiment-/blob/24f7d11d635a07b63a65ff90698175622721f181/Transient%20Analysis2.jpg
+# Theoretical calculation 
 
 
 
