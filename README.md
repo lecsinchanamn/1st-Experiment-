@@ -129,5 +129,14 @@ Vout = VDD - ID * RD; Output voltage ~ 0
 https://github.com/lecsinchanamn/1st-Experiment-/blob/5fa62d352d51f6517e0429daf9cd5fdd6998bd86/DC%20Analysis.jpg
 # AC Analysis without Capacitor.
 
+# AC Analysis with Capacitor.
+For AC analysis use (.ac dec 10 0.1 100G)
+The frequency response was obtained to determine gain and bandwidth.
+# Calculation of Gain and Bandwidth 
+From AC plot (with CL = 10pF):
+Midband gain ≈ 2.8076
+nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 34.276 GHz
+GBP ≈ 11.36 × 34.276 GHz ≈ 381.42GHz (approx) From the AC frequency response analysis of the MOSFET common-source amplifier,
+
 
 
