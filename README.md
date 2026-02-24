@@ -74,4 +74,5 @@ Technology                     = TSMC 0.18µm CMOS
 # Theoretical calculation.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/4eb58277f3577c238c9830dbc94bbbaad6c93e22/Theoretical%20calculation.jpg
 https://github.com/lecsinchanamn/1st-Experiment-/blob/539bd8e45ddfd2f8a521f9c4c4e8886142225d7e/Theoretical%20Calculationn.jpg
-#  
+# DC Analysis (DC Sweep)
+
