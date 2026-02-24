@@ -125,7 +125,9 @@ Vin = HIGH; Input voltage high
 VDS < VGS - Vth; Condition for triode
 ID = kn * ((VGS - Vth) * VDS - 0.5 * VDS * VDS); Drain current in triode
 Vout = VDD - ID * RD; Output voltage ~ 0
+# Circuit diagram and wave.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/5fa62d352d51f6517e0429daf9cd5fdd6998bd86/DC%20Analysis.jpg
-# AC Analysis without Capacitor 
+# AC Analysis without Capacitor.
+
 
 
