@@ -148,7 +148,27 @@ nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 34.276 GHz
 GBP ≈ 11.36 × 34.276 GHz ≈ 381.42GHz (approx) From the AC frequency response analysis of the MOSFET common-source amplifier.
 # Circuit diagram and wave.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/6e1d1a7e0d14e1a95256a527c6614dc84da13289/AC%20analysis%20with%20C.jpg
-# Result 
+# Result of experiment.
 The all 4 Analysis of Common Source Amplifier like Analysis, DC Analysis, Transient Analysis, Transfer characteristics Analysis are Done under (tsmc018nm) using LT spice.
-#In
 
+# Inferences.
+
+ ✅ AC Analysis 
+AC analysis is used when the input is alternating current (AC).
+Voltage and current change with time (like sine wave).
+We study how the circuit behaves at different frequencies.
+It tells us gain, phase shift, and frequency response.
+Example: CS amplifier signal analysis.
+
+ ✅ DC Analysis 
+DC analysisis used when the input is direct current (DC).
+Voltage and current are constant (do not change with time).
+We find biasing values like �.
+It tells us whether MOSFET is in cutoff, triode, or saturation region.
+Used to set the correct operating point (Q-point).
+
+✅ Transient Analysis 
+Transient analysis studies the circuit during switching or changing time.
+It shows how voltage and current change from one condition to another.
+Important for circuits with capacitors and inductors.
+It gives the time response (charging and discharging).               Example: Capacitor charging curve.
