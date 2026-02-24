@@ -72,5 +72,6 @@ Technology                     = TSMC 0.18µm CMOS
 2. Drain Resistor (RD).
 3. Channel Width of NMOS MOSFET (Wn).
 # Theoretical calculation.
-g
+Theoretical calculation.jpg
+
  
