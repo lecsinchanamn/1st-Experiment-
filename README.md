@@ -128,6 +128,14 @@ Vout = VDD - ID * RD; Output voltage ~ 0
 # Circuit diagram and wave.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/5fa62d352d51f6517e0429daf9cd5fdd6998bd86/DC%20Analysis.jpg
 # AC Analysis without Capacitor.
+ AC plot Capacitorload (with CL = 10pF):
+ # Calucation of Gain and Bandwidth 
+Midband gain ≈ 2.8076 
+nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 33.28
+GHzGBP ≈ 11.4 × 33.28 GHz ≈ 379.392GHz (approx) 
+The AC frequency response of the common-source MOSFET amplifier shows that the amplifier provides a stable and constant gain in the midband frequency range. 
+This means the circuit amplifies the input signal properly without distortion at low and medium frequencies.
+
 
 # AC Analysis with Capacitor.
 For AC analysis use (.ac dec 10 0.1 100G)
@@ -136,7 +144,7 @@ The frequency response was obtained to determine gain and bandwidth.
 From AC plot (with CL = 10pF):
 Midband gain ≈ 2.8076
 nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 34.276 GHz
-GBP ≈ 11.36 × 34.276 GHz ≈ 381.42GHz (approx) From the AC frequency response analysis of the MOSFET common-source amplifier,
+GBP ≈ 11.36 × 34.276 GHz ≈ 381.42GHz (approx) From the AC frequency response analysis of the MOSFET common-source amplifier.
 
 
 
