@@ -7,7 +7,7 @@ It increases the strength of a weak signal.The output signal is stronger but has
 # what is Common source Amplifier?
 A Common Source (CS) amplifier is a MOSFET amplifier in which the source terminal is common to both input and output, the input is applied at the gate, and the output is taken from the drain, providing voltage amplification with 180° phase shift.
 # Circuit diagram of CS Amplifier?
-CS Amplifier.jpghttps://github.com/lecsinchanamn/1st-Experiment-/blob/b285afba88a374ca7f2d10d77b225bb92d7ff5dc/CS%20Amplifier.jpg
+
 # what is role of R_D in circuit?
 1. Develops Output Voltage:
    - The output is taken across R_D.
