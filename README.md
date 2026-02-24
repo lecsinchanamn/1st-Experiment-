@@ -1,6 +1,6 @@
 # 1st-Experiment-
 Design Common Source Amplifier using NMOS MOSFET in (tsmc 018nm) technology in Laboratory using LT spice software.
-# introduction to Amplifier.
+# Introduction to Amplifier.
 # what is Amplifier?
 An amplifier is an electronic device.
 It increases the strength of a weak signal.The output signal is stronger but has the same shape as input.
@@ -19,7 +19,7 @@ CS Amplifier.jpg
 
 3. Limits Current:
    - Protects the MOSFET by limiting the drain current.
-What is role of VDD in Circuit?
+# What is role of VDD in Circuit?
 1. Provides Bias:
    - Supplies DC voltage needed to properly **bias the MOSFET** in the active region.
 
@@ -70,6 +70,7 @@ Technology                     = TSMC 0.18µm CMOS
 # What are the Parameter need to find using this Specification?
 1. Drain current (ID).
 2. Drain Resistor (RD).
-3. Channel Width of NMOS MOSFET (Wn)
-4. 
+3. Channel Width of NMOS MOSFET (Wn).
+# Theoretical calculation.
+
  
