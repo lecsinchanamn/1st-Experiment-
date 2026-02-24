@@ -58,6 +58,38 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/f6182b314198c72725b89d32e6
      - **Rise time, fall time, and delay**
      - How output **follows input** over time
    - Important for **digital signals and switching applications**.
+
+# Transfer Characteristic of CS Amplifier
+
+1) Definition:
+Transfer characteristic shows the relationship between
+Input Voltage (Vin or VGS) and Output Voltage (Vout or VDS).
+
+2) Condition 1: Cut-off Region
+If VGS < Vth
+→ MOSFET is OFF
+→ ID = 0
+→ Vout = VDD (maximum)
+→ No amplification
+
+3) Condition 2: Saturation Region (Active Region)
+If VGS > Vth and VDS ≥ (VGS - Vth)
+→ MOSFET is ON
+→ ID flows
+→ Vout decreases
+→ Amplification happens
+→ Output is inverted
+
+4) Condition 3: Triode Region
+If VDS < (VGS - Vth)
+→ MOSFET fully ON
+→ Vout becomes very small
+→ No proper amplification
+
+5) Important Point:
+When Vin increases → Vout decreases
+(Phase inversion of 180°)
+
 # AIM
 Design and Simulate the Common Source Amplifier NMOS MOSFET and Using (time 018nm) technology in Laboratory using LT spice software.
 # specification table.
@@ -128,7 +160,7 @@ Vout = VDD - ID * RD; Output voltage ~ 0
 # Circuit diagram and wave.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/5fa62d352d51f6517e0429daf9cd5fdd6998bd86/DC%20Analysis.jpg
 # AC Analysis without Capacitor.
- AC plot Capacitorload (with CL = 10pF):
+ 
  # Calucation of Gain and Bandwidth 
 Midband gain ≈ 2.8076 
 nearly 3Gain in dB ≈ 8.48dB3 dB bandwidth ≈ 33.28
