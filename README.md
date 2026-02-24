@@ -1,6 +1,7 @@
 # 1st-Experiment-
 Design Common Source Amplifier using NMOS MOSFET in (tsmc 018nm) technology in Laboratory using LT spice software.
 # Introduction to Amplifier.
+
 # what is Amplifier?
 An amplifier is an electronic device.
 It increases the strength of a weak signal.The output signal is stronger but has the same shape as input.
@@ -95,18 +96,18 @@ When Vin increases → Vout decreases
 Design and Simulate the Common Source Amplifier NMOS MOSFET and Using (time 018nm) technology in Laboratory using LT spice software.
 # specification table.
 
-Supply Voltage (VDD)          = 2 V
-Power Consumption (P)         = 1.2 mW
-Drain Current (ID)            = 200 µA
-Load Capacitance (CL)         = 0.7 pF
-NMOS Channel Length (Ln)      = 480 nm
-Technology                     = TSMC 0.18µm CMOS
+1.Supply Voltage (VDD)          = 2 V
+2.Power Consumption (P)         = 1.2 mW
+3.Drain Current (ID)            = 200 µA
+4.Load Capacitance (CL)         = 0.7 pF
+5.NMOS Channel Length (Ln)      = 480 nm
+6.Technology                     = TSMC 0.18µm CMOS
 
 # What are the Parameter need to find using this Specification?
 1. Drain current (ID).
 3. Drain Resistor (RD).
 4. Channel Width of NMOS MOSFET (Wn).
-5. 
+
 # Theoretical calculation.
 https://github.com/lecsinchanamn/1st-Experiment-/blob/4eb58277f3577c238c9830dbc94bbbaad6c93e22/Theoretical%20calculation.jpg
 https://github.com/lecsinchanamn/1st-Experiment-/blob/539bd8e45ddfd2f8a521f9c4c4e8886142225d7e/Theoretical%20Calculationn.jpg
@@ -128,7 +129,6 @@ DC OFFSET = O.9.
 AMPLITUDE =10m.
 FREQUENCY =1KHz.
 AC AMPLITUDE =1.
-# Circuit diagram 
 
 # Tabular Table 
 https://github.com/lecsinchanamn/1st-Experiment-/blob/92252573f8d650efbfd744b3ac2eeb6477148e4c/DC%20Sweep2.jpg
