@@ -106,18 +106,24 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/24f7d11d635a07b63a65ff9069
 # Theoretical and Practical calculation 
 https://github.com/lecsinchanamn/1st-Experiment-/blob/048edfa3a286f0dd83092382961f1c842364dea7/Theoretical%20%26%20practical%20TA.jpg
 # DC Transfer characteristics.
-The DC transfer characteristic of a Common Source (CS) amplifier shows how the output voltage (�) changes with input voltage (�) under DC conditions.
 
-1. DC Operation of CS Amplifier
-In a CS amplifier:
-The gate receives the input voltage � (DC bias for DC analysis).
-The drain resistor � develops the output voltage �.
-The source is usually grounded (V_S = 0).
-The MOSFET operates in saturation if:
-VDS>VGS-VT
-Where:
-� = drain-source voltage
-� = gate-source voltage
-� = MOSFET threshold voltage
+// 1. Cut-off Region (MOSFET OFF)
+Vin = LOW;             // Input voltage is very small
+VGS < Vth;             // Gate-Source voltage below threshold
+ID = 0;                // No drain current
+Vout = VDD - ID * RD;  // Output voltage ~ VDD
 
+// 2. Saturation Region (Amplifier ON)
+Vin = MEDIUM;          // Input voltage moderate
+VDS > VGS - Vth;       // Condition for saturation
+ID = 0.5 * kn * (VGS - Vth) * (VGS - Vth); // Drain current in saturation
+Vout = VDD - ID * RD;  // Output voltage decreases with Vin
+// Small change in Vin → large change in Vout (amplification region)
+
+// 3. Triode Region (MOSFET fully ON)
+Vin = HIGH;            // Input voltage high
+VDS < VGS - Vth;       // Condition for triode
+ID = kn * ((VGS - Vth) * VDS - 0.5 * VDS * VDS); // Drain current in triode
+Vout = VDD - ID * RD;  // Output voltage ~ 0
+// No amplification, MOSFET behaves like a resistor
 
