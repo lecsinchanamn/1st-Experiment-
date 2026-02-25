@@ -95,29 +95,13 @@ When Vin increases → Vout decreases
 
 Design and Simulate the Common Source Amplifier NMOS MOSFET and Using (time 018nm) technology in Laboratory using LT spice software.
 # Specification Table.
-1.Supply Voltage (VDD)          = 2 V
-2.Power Consumption (P)         = 1.2 mW
-3.Drain Current (ID)            = 200 µA
-4.Load Capacitance (CL)         = 0.7 pF
-5.NMOS Channel Length (Ln)      = 480 nm
-6.Technology                     = TSMC 0.18µm CMOS
-+====================================================+
-|              CS AMPLIFIER SPECIFICATIONS           |
-+====+==========================+====================+
-| No | Parameter                 | Value              |
-+====+==========================+====================+
-| 1  | Supply Voltage (VDD)      | 2 V                |
-+----+--------------------------+--------------------+
-| 2  | Power Consumption (P)     | 1.2 mW             |
-+----+--------------------------+--------------------+
-| 3  | Drain Current (ID)        | 200 µA             |
-+----+--------------------------+--------------------+
-| 4  | Load Capacitance (CL)     | 0.7 pF             |
-+----+--------------------------+--------------------+
-| 5  | NMOS Channel Length (Ln)  | 480 nm             |
-+----+--------------------------+--------------------+
-| 6  | Technology                | TSMC 0.18 µm CMOS  |
-+====+==========================+====================+
+
+1.Supply Voltage (VDD) = 2 V
+2.Power Consumption (P) = 1.2 mW
+3.Drain Current (ID)  = 200 µA
+4.Load Capacitance (CL) = 0.7 pF
+5.NMOS Channel Length (Ln) = 480 nm
+6.Technology = TSMC 0.18µm CMOS
 
 # What are the Parameter need to find using this Specification?
 1. Drain current (ID).
