@@ -60,7 +60,7 @@ https://github.com/lecsinchanamn/1st-Experiment-/blob/f6182b314198c72725b89d32e6
      - How output **follows input** over time
    - Important for **digital signals and switching applications**.
 
-# Transfer Characteristic of CS Amplifier
+# Transfer Characteristic  Analysis.
 
 1) Definition:
 Transfer characteristic shows the relationship between
@@ -95,7 +95,16 @@ When Vin increases → Vout decreases
 
 Design and Simulate the Common Source Amplifier NMOS MOSFET and Using (time 018nm) technology in Laboratory using LT spice software.
 # specification table.
-
++----+--------------------------+------------------+
+| No | Parameter                | Value            |
++----+--------------------------+------------------+
+| 1  | Supply Voltage (VDD)     | 2 V              |
+| 2  | Power Consumption (P)    | 1.2 mW           |
+| 3  | Drain Current (ID)       | 200 µA           |
+| 4  | Load Capacitance (CL)    | 0.7 pF           |
+| 5  | NMOS Channel Length (Ln) | 480 nm           |
+| 6  | Technology               | TSMC 0.18 µm CMOS|
++----+--------------------------+------------------+
 1.Supply Voltage (VDD)          = 2 V
 2.Power Consumption (P)         = 1.2 mW
 3.Drain Current (ID)            = 200 µA
